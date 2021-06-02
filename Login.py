@@ -40,7 +40,7 @@ def logginbutton():
         access.config(bg="#45fe39", text="")
         messagebox.showinfo("Status", "Access Granted")
         root.destroy()
-        import newscreen
+        import Enteramount
     else:
         if name.get() not in users:
             frame2.config(bg="red")
